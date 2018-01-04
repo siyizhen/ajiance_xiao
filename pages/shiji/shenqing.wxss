@@ -1,0 +1,13 @@
+page{
+	font-size:14px;
+}
+.weui-label{
+	width:70px;
+}
+.weui-cell__ft{
+	margin-top:5px;
+}
+.weui-btn-disabled{
+	background-color:#666;
+	color:#fff;
+}

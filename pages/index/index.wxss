@@ -1,0 +1,6 @@
+.userId{
+  font-size: 10px;color: #888888;
+}
+.cell_hang{
+	display: inline-block; vertical-align: middle;
+}
