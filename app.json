@@ -1,39 +1,44 @@
 {
-  "pages":[
+  "pages": [
     "pages/index/index",
     "pages/shiji/shenqing",
-    "pages/yuyue/yuyue"
+    "pages/yuyue/yuyue",
+    "pages/chajieguo/chajieguo"
   ],
-  "window":{
-    "backgroundTextStyle":"light",
+  "window": {
+    "backgroundTextStyle": "light",
     "navigationBarBackgroundColor": "#000",
     "navigationBarTitleText": "艾检测",
-    "navigationBarTextStyle":"white"
+    "navigationBarTextStyle": "white"
   },
-  "tabBar":{
-    "selectedColor":"#1296db",
-    "position":"bottom",
-    "list":[{
-      "pagePath":"pages/index/index",
-      "iconPath":"pages/images/userDefault.png",
-      "selectedIconPath":"pages/images/userSelected.png",
-      "text":"我的"
-    },{
-      "pagePath":"pages/shiji/shenqing",
-      "iconPath":"pages/images/shop-cart-white.png",
-      "selectedIconPath":"pages/images/shop-cart-white-selected.png",
-      "text":"申请试剂"
-    },{
-      "pagePath":"pages/yuyue/yuyue",
-      "iconPath":"pages/images/starO.png",
-      "selectedIconPath":"pages/images/starO-selected.png",
-      "text":"预约检测"
-    },{
-      "pagePath":"pages/index/index",
-      "iconPath":"pages/images/search.png",
-      "selectedIconPath":"pages/images/search-selected.png",
-      "text":"查结果"
-    }
+  "tabBar": {
+    "selectedColor": "#1296db",
+    "position": "bottom",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "pages/images/userDefault.png",
+        "selectedIconPath": "pages/images/userSelected.png",
+        "text": "我的"
+      },
+      {
+        "pagePath": "pages/shiji/shenqing",
+        "iconPath": "pages/images/shop-cart-white.png",
+        "selectedIconPath": "pages/images/shop-cart-white-selected.png",
+        "text": "申请试剂"
+      },
+      {
+        "pagePath": "pages/yuyue/yuyue",
+        "iconPath": "pages/images/starO.png",
+        "selectedIconPath": "pages/images/starO-selected.png",
+        "text": "预约检测"
+      },
+      {
+        "pagePath": "pages/chajieguo/chajieguo",
+        "iconPath": "pages/images/search.png",
+        "selectedIconPath": "pages/images/search-selected.png",
+        "text": "查结果"
+      }
     ]
   }
 }

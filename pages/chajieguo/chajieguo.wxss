@@ -1,0 +1,38 @@
+page{
+	font-size:14px;
+}
+.weui-label{
+	width:70px;
+}
+.weui-cell__ft{
+	margin-top:5px;
+}
+.weui-btn-disabled{
+	background-color:#666;
+	color:#fff;
+}
+
+.pickerheader {
+  position: absolute;
+  top:0px;
+  width: 100%;
+  z-index: 5;
+}
+
+.picker-cancel {
+  float: left;
+  margin: 20rpx;
+  color: #828282;
+}
+
+.picker-true {
+  float: right;
+  margin: 20rpx;
+  color: #10FF10;
+}
+
+.jiancedianpicker{
+	position: fixed;
+  	bottom: 0px;
+	width: 100%; height: 170px;
+}

@@ -16,3 +16,20 @@
 }
 
 .icon-location:before {content:"\e600";color:#ff4000;}
+
+.recommend{
+  display:inline-block;
+  color:#FFF;
+  background-color:#CC0000;
+  font-size:12px;
+  padding:2px 5px;
+  margin-right:5px;
+}
+
+.now_area_box{
+  text-align:center;margin-top:5px;border-bottom:1px solid #e5e5e5;
+}
+
+.now_area{
+  display:inline-block;margin-left:5px;
+}

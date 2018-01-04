@@ -1,0 +1,55 @@
+<view class="page">
+	<view class="weui-cells weui-cells_after-title">
+            <view class="weui-cell weui-cell_input">
+                <view class="weui-cell__hd">
+                    <view class="weui-label">检测编号</view>
+                </view>
+                <view class="weui-cell__bd">
+                    <input class="weui-input" placeholder="请输入检测编号"/>
+                </view>
+            </view>
+            <view class="weui-cell weui-cell_input">
+                <view class="weui-cell__hd">
+                    <view class="weui-label">检测单位</view>
+                </view>
+                <view class="weui-cell__bd">
+                    <view class="weui-input" bindtap="open">{{jiancedian}}</view>
+                </view>
+            </view>
+            <view class="weui-cell weui-cell_input weui-cell_vcode">
+                <view class="weui-cell__hd">
+                    <view class="weui-label">联系电话</view>
+                </view>
+                <view class="weui-cell__bd">
+                    <input class="weui-input" placeholder="请输入联系电话" />
+                </view>
+                <view class="weui-cell__ft">
+                    <button class="weui-btn mini-btn" size="mini" type="warn">获取验证码</button>
+                </view>
+            </view>
+            <view class="weui-cell weui-cell_input">
+                <view class="weui-cell__hd">
+                    <view class="weui-label">验证码</view>
+                </view>
+                <view class="weui-cell__bd">
+                    <input class="weui-input" placeholder="请输入验证码"/>
+                </view>
+            </view>
+            <view class="weui-cell weui-cell_input">
+                <view class="page_tishi">查询须知：本结果由艾检测合作的疾控中心或医疗机构上传，仅为对您当次检测的参考，不得用于商业和临床诊断使用。查询时请妥善保管您的验证码，不要轻易告诉别人哦。</view>
+            </view>
+    </view>
+    <view class="weui-btn-area">
+        <button class="weui-btn" type="primary" style="font-size:14px;">查询结果</button>
+    </view>
+
+    <picker-view wx:if="{{isShow}}"  indicator-style="height: 50px;" bindchange="changejiancedian" class="jiancedianpicker">
+        <view class="pickerheader">
+          <view bindtap="open" class="picker-cancel">取消</view>
+          <view bindtap="open" class="picker-true">确定</view>
+        </view>
+        <picker-view-column>
+          <view wx:for="{{jiancedians}}" wx:key="item" style="text-align:center;">{{item}}</view>
+        </picker-view-column>
+    </picker-view>
+</view>
